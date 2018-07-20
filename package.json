@@ -1,0 +1,35 @@
+{
+  "name": "playground-frontend",
+  "version": "1.0.0",
+  "description": "react導入学習用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --hot --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TILoom6/playground-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TILoom6/playground-frontend/issues"
+  },
+  "homepage": "https://github.com/TILoom6/playground-frontend#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.5",
+    "http-server": "^0.11.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
